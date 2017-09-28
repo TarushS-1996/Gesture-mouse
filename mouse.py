@@ -1,7 +1,7 @@
 import pyautogui as pg
 import serial
 import time
-ser = serial.Serial("COM7",9600)
+ser = serial.Serial("",9600)
 val = pg.size()
 x = float(val[0])
 y = float(val[1])
